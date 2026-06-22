@@ -79,21 +79,29 @@ https://github.com/anomrac21/ttms-app-cluster (subdirectory: `_menus_ttms`)
 
 ## GitHub Actions Deployment
 
-Every client repository generated from this template includes a workflow at
-`.github/workflows/deploy-netlify.yml`. The workflow builds the Hugo site on each
-push to `master` and uploads the generated `public/` folder directly to Netlify.
+Every client repository includes workflows under `.github/workflows/`:
 
-The following GitHub Actions secrets must be present in each client repository:
+| Workflow | Hosting | Trigger |
+|----------|---------|---------|
+| `k8s-redeploy.yml` | Kubernetes (default) | Push to `master`/`main` → `repository_dispatch` on `ttms-client-configs` |
+| `deploy-netlify.yml` | Netlify (`DEPLOY_HOSTING=netlify`) | Push → build Hugo and upload zip to Netlify API |
+
+### Kubernetes (default)
+
+CPS sets **`HUGO_DEPLOY_TOKEN`** on the client repo **before the first push** so `k8s-redeploy.yml` can dispatch `hugo-redeploy` on [ttms-client-configs](https://github.com/anomrac21/ttms-client-configs).
+
+The token must allow `repository_dispatch` on `ttms-client-configs`. CPS uses `HUGO_DEPLOY_TOKEN` from its environment (or falls back to `GITHUB_TOKEN`).
+
+If an existing site fails with `Parameter token or opts.auth is required`, run the **hugo-deploy-token-inject** workflow in `ttms-app-cluster` or set `HUGO_DEPLOY_TOKEN` manually on the client repo, then re-run the failed workflow.
+
+### Netlify
 
 | Secret | Description |
 |--------|-------------|
-| `NETLIFY_AUTH_TOKEN` | Netlify personal access token with `sites:write` permissions. Used to upload the build artifact. |
-| `NETLIFY_SITE_NAME`  | The Netlify site slug (e.g. `ttms_clientname`). |
+| `NETLIFY_AUTH_TOKEN` | Netlify personal access token with `sites:write` |
+| `NETLIFY_SITE_NAME` | Netlify site slug (e.g. `ttms_clientname`) |
 
-The Client Provisioning Service automatically sets these secrets after creating
-the Netlify site, so no manual changes are normally required. If provisioning a
-repository manually, be sure to add the secrets above before pushing to `master`
-to allow deployments to succeed.
+CPS sets these after creating the Netlify site during provisioning.
 
 ## Local Development
 

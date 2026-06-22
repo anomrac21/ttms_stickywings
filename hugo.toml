@@ -36,6 +36,8 @@ baseURL = 'https://{{CLIENT_NAME}}.ttmenus.com/'
   page = ["HTML", "JSON"]
 
 [params]
+  # Subscription tier: free | tier1 | tier1_4mo | tier2 (exported in /index.json for hub Account)
+  tier = "free"
   authServiceUrl = "https://auth.ttmenus.com"
   adsServiceUrl = "https://ads.ttmenus.com"
   notifyServiceUrl = "https://notify.ttmenus.com"
@@ -72,6 +74,25 @@ baseURL = 'https://{{CLIENT_NAME}}.ttmenus.com/'
     apiUrl = "https://notify.ttmenus.com/api/v1"
     websocketUrl = "wss://notify.ttmenus.com/api/v1/ws/connect"
     serviceUrl = "https://notify.ttmenus.com"
+
+[params.features]
+    payments = false
+    delivery = false
+    notifications = true
+    analytics = false
+    exclusive_ads = false
+    no_competitor_ads = false
+    unmetered_traffic = false
+
+[params.posintegration]
+    enabled = false
+    provider = ""
+    api_url = ""
+    access_token = ""
+    store_id = ""
+    sync_menu = false
+    auto_process_orders = false
+    fallback_to_whatsapp = true
 
 [params.orderingsystem]
     # Set to false to disable placing orders (cart still works; user gets message and order is cancelled)
