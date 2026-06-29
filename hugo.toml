@@ -1,140 +1,136 @@
-theme = '_menus_ttms'
-languageCode = 'en-TT'
-title = 'Sticky Wings'
 baseURL = 'https://stickywings.ttmenus.com/'
 enableRobotsTXT = true
-
-# Mount theme's content (dashboard, locations, api, etc.); keep project content (defining mounts replaces default for that target)
-[module]
-  [[module.mounts]]
-    source = "content"
-    target = "content"
-  [[module.mounts]]
-    source = "themes/_menus_ttms/content"
-    target = "content"
+languageCode = 'en-TT'
+theme = '_menus_ttms'
+title = 'Sticky Wings'
 
 [markup]
-
 [markup.goldmark]
-
 [markup.goldmark.parser]
-      attribute = true
+attribute = true
 
 [markup.goldmark.renderer]
-      unsafe = true
+unsafe = true
+
+[module]
+[[module.mounts]]
+source = 'content'
+target = 'content'
+
+[[module.mounts]]
+source = 'themes/_menus_ttms/content'
+target = 'content'
 
 [outputFormats]
-
 [outputFormats.menuitemsJSON]
-    mediaType = "application/json"
-    baseName = "menu-items"
-    isPlainText = true
-    notAlternative = true
+baseName = 'menu-items'
+isPlainText = true
+mediaType = 'application/json'
+notAlternative = true
 
 [outputs]
-  home = ["HTML", "JSON"]
-  section = ["HTML", "JSON"]
-  page = ["HTML", "JSON"]
+home = ['HTML', 'JSON']
+page = ['HTML', 'JSON']
+section = ['HTML', 'JSON']
 
 [params]
-  tier = "free"
-  authServiceUrl = "https://auth.ttmenus.com"
-  adsServiceUrl = "https://ads.ttmenus.com"
-  notifyServiceUrl = "https://notify.ttmenus.com"
-  description = "Sticky Wings — BBQ, grill, and jerk combos, sticky wings, loaded fries, pasta, burgers, and more. Movie Town Mall & Icon Plaza. View our menu and order online."
+adsServiceUrl = 'https://ads.ttmenus.com'
+authServiceUrl = 'https://auth.ttmenus.com'
+description = 'Sticky Wings — BBQ, grill, and jerk combos, sticky wings, loaded fries, pasta, burgers, and more. Movie Town Mall & Icon Plaza. View our menu and order online.'
+notifyServiceUrl = 'https://notify.ttmenus.com'
+tier = 'free'
 
 [params.ads]
-    clientId = "ttms_stickywings"
-    enabled = true
-    apiUrl = "https://ads.ttmenus.com/api/v1"
+apiUrl = 'https://ads.ttmenus.com/api/v1'
+clientId = 'ttms_stickywings'
+enabled = true
 
 [params.auth]
-    enabled = true
-    apiUrl = "https://auth.ttmenus.com/api/v1"
+apiUrl = 'https://auth.ttmenus.com/api/v1'
+enabled = true
 
 [params.contentManagement]
-    enabled = true
-    apiUrl = "https://cms.ttmenus.com/api"
-    serviceUrl = "https://cms.ttmenus.com"
-    clientId = "ttms_stickywings"
-
-[params.thumbor]
-    enabled = true
-    url = "https://thumbor.ttmenus.com"
-    sourceBaseUrl = "https://stickywings.ttmenus.com"
-    menuImagesUseThumbor = false
-
-[params.menuImageService]
-    enabled = true
-    apiUrl = "https://menu-images.ttmenus.com/api/v1"
-
-[params.notifications]
-    enabled = true
-    apiUrl = "https://notify.ttmenus.com/api/v1"
-    websocketUrl = "wss://notify.ttmenus.com/api/v1/ws/connect"
-    serviceUrl = "https://notify.ttmenus.com"
-    clientDomain = "stickywings.ttmenus.com"
-
-[params.paymentService]
-    enabled = false
-    apiUrl = "https://pay.stickywings.ttmenus.com"
-    clientId = "ttms_stickywings"
-    currency = "TTD"
-    provider = "wipay"
+apiUrl = 'https://cms.ttmenus.com/api'
+clientId = 'ttms_stickywings'
+enabled = true
+serviceUrl = 'https://cms.ttmenus.com'
 
 [params.features]
-    payments = false
-    delivery = false
-    notifications = true
-    analytics_access = false
-    featured = false
-    exclusive_ads = false
-    no_competitor_ads = false
-    unmetered_traffic = false
+analytics_access = false
+delivery = false
+exclusive_ads = false
+featured = false
+no_competitor_ads = false
+notifications = true
+payments = false
+unmetered_traffic = false
 
-[params.posintegration]
-    enabled = false
-    provider = ""
-    api_url = ""
-    access_token = ""
-    store_id = ""
-    sync_menu = false
-    auto_process_orders = false
-    fallback_to_whatsapp = true
+[params.menuImageService]
+apiUrl = 'https://menu-images.ttmenus.com/api/v1'
+enabled = true
+
+[params.notifications]
+apiUrl = 'https://notify.ttmenus.com/api/v1'
+clientDomain = 'stickywings.ttmenus.com'
+enabled = true
+serviceUrl = 'https://notify.ttmenus.com'
+websocketUrl = 'wss://notify.ttmenus.com/api/v1/ws/connect'
 
 [params.orderingsystem]
-    enabled = true
-    orderingDisabledMessage = "Ordering is not available for this menu at this time."
-    vat = 0
-    servicecharge = 0
-    hastables = true
-    usephonecall = false
-    whatsapp = 18687258135
-    phone = 18687258135
+enabled = true
+hastables = true
+orderingDisabledMessage = 'Ordering is not available for this menu at this time.'
+phone = 18687258135
+servicecharge = 0
+usephonecall = false
+vat = 0
+whatsapp = 18687258135
+
+[params.paymentService]
+apiUrl = 'https://pay.stickywings.ttmenus.com'
+clientId = 'ttms_stickywings'
+currency = 'TTD'
+enabled = false
+provider = 'wipay'
+
+[params.posintegration]
+access_token = ''
+api_url = ''
+auto_process_orders = false
+enabled = false
+fallback_to_whatsapp = true
+provider = ''
+store_id = ''
+sync_menu = false
 
 [params.services]
-    analyticsid = "0"
-    notifications = true
+analyticsid = '0'
+notifications = true
 
 [params.social]
-    youtube = ""
-    email = "stickywings.hr1@gmail.com"
-    phone = 18687258135
-    facebook = ""
-    instagram = ""
-    tiktok = ""
+email = 'stickywings.hr1@gmail.com'
+facebook = 'https://www.facebook.com/stickywingsofficial/'
+instagram = 'https://www.instagram.com/stickywingstt/'
+phone = 18687258135
+tiktok = ''
+youtube = ''
+
+[params.thumbor]
+enabled = true
+menuImagesUseThumbor = false
+sourceBaseUrl = 'https://stickywings.ttmenus.com'
+url = 'https://thumbor.ttmenus.com'
 
 [privacy]
-
 [privacy.instagram]
-    simple = false
-    disable = false
+disable = false
+simple = false
 
 [taxonomies]
-  ingredient = "ingredients"
-  cookingmethod = "cookingmethods"
-  tag = "tags"
-  category = "categories"
-  subcategory = "subcategories"
-  type = "types"
-  event = "events"
+category = 'categories'
+cookingmethod = 'cookingmethods'
+event = 'events'
+ingredient = 'ingredients'
+subcategory = 'subcategories'
+tag = 'tags'
+type = 'types'
