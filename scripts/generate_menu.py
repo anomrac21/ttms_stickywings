@@ -5,6 +5,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 CONTENT = ROOT / "content"
 
+SATURDAY_ONLY = {"days": ["Saturday"]}
+
 SECTION_ICON = {
     "specials": "images/specials.webp",
     "sticky-wings": "images/sticky-wings.webp",
@@ -51,6 +53,17 @@ def fm(**kwargs) -> str:
                 lines.append(f"{key}:")
                 for item in val:
                     lines.append(f"  - {item}")
+        elif isinstance(val, dict):
+            lines.append(f"{key}:")
+            for k, v in val.items():
+                if isinstance(v, list):
+                    lines.append(f"    {k}:")
+                    for item in v:
+                        lines.append(f"        - {item}")
+                elif isinstance(v, str):
+                    lines.append(f'    {k}: "{v}"' if ":" in v else f"    {k}: {v}")
+                else:
+                    lines.append(f"    {k}: {v}")
         else:
             lines.append(f"{key}: {val}")
     lines.append("---")
@@ -335,11 +348,12 @@ def main():
     for title, slug, w in [("Corn Soup", "corn-soup", 1), ("Cow Heel Soup", "cow-heel-soup", 2)]:
         write_item("soup-saturdays", slug, {
             "title": title,
+            "availability": SATURDAY_ONLY,
             "events": ["Saturday"],
             "tags": ["Soup", "Special"],
             "types": ["Main"],
             "weight": w,
-        }, f"Available Saturdays — {title.lower()}.")
+        }, f"Homemade {title.lower()} — available Saturdays only.")
 
     print(f"Generated menu under {CONTENT}")
 

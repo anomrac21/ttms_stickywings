@@ -1,13 +1,16 @@
 ---
 title: Cow Heel Soup
+availability:
+    days:
+        - Saturday
 events:
-  - Saturday
+    - Saturday
 tags:
-  - Soup
-  - Special
+    - Soup
+    - Special
 types:
-  - Main
+    - Main
 weight: 2
 ---
 
-Available Saturdays — cow heel soup.
+Homemade cow heel soup — available Saturdays only.

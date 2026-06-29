@@ -1,13 +1,16 @@
 ---
 title: Corn Soup
+availability:
+    days:
+        - Saturday
 events:
-  - Saturday
+    - Saturday
 tags:
-  - Soup
-  - Special
+    - Soup
+    - Special
 types:
-  - Main
+    - Main
 weight: 1
 ---
 
-Available Saturdays — corn soup.
+Homemade corn soup — available Saturdays only.
