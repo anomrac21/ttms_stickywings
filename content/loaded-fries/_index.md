@@ -1,9 +1,9 @@
 ---
 title: Loaded Fries
 weight: 7
-icon: images/loaded-fries.webp
+icon: images/sides.webp
 images:
-    primary: images/loaded-fries.webp
+    primary: images/sides.webp
 ---
 
 Fully loaded fries topped with your choice of protein.
