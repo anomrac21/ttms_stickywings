@@ -4,8 +4,8 @@ locations:
     delivery: {}
     island: Trinidad
     latlon:
-      - 10.658828
-      - -61.531903
+      - 10.6588284101584
+      - -61.53190327431944
     opening_hours:
       fri:
         - time: "10:00"
@@ -54,8 +54,8 @@ locations:
     delivery: {}
     island: Trinidad
     latlon:
-      - 10.629824
-      - -61.445811
+      - 10.629823516211392
+      - -61.44581066269575
     opening_hours:
       fri:
         - time: "10:00"
