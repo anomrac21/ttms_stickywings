@@ -1,27 +1,101 @@
 locations:
-  - address: "Movie Town Mall"
-    city: "Port of Spain"
-    island: "Trinidad"
-    latlon: [10.658828,-61.531903]
+  - address: Movie Town Mall
+    city: Port of Spain
+    delivery: {}
+    island: Trinidad
+    latlon:
+      - 10.658828
+      - -61.531903
+    opening_hours:
+      fri:
+        - time: "10:00"
+          type: Open
+      mode: Auto
+      mon:
+        - time: "10:00"
+          type: Open
+        - time: "22:00"
+          type: Close
+      sat:
+        - time: "00:00"
+          type: Close
+        - time: "10:00"
+          type: Open
+      sun:
+        - time: "00:00"
+          type: Close
+        - time: "09:00"
+          type: Open
+        - time: "17:00"
+          type: Close
+      thu:
+        - time: "10:00"
+          type: Open
+        - time: "22:00"
+          type: Close
+      tue:
+        - time: "10:00"
+          type: Open
+        - time: "22:00"
+          type: Close
+      wed:
+        - time: "10:00"
+          type: Open
+        - time: "22:00"
+          type: Close
+    orderingtables:
+      - Takeway Only
     phone: "18687258135"
+    subcategories:
+      - Restaurant
     whatsapp: "18687258135"
-    subcategories:
-      - "Restaurant"
-    orderingtables: []
-    delivery:
+  - address: Icon Plaza
+    city: San Juan
+    delivery: {}
+    island: Trinidad
+    latlon:
+      - 10.629824
+      - -61.445811
     opening_hours:
-      mode: "Auto"
-
-  - address: "Icon Plaza"
-    city: "San Juan"
-    island: "Trinidad"
-    latlon: [10.629824,-61.445811]
+      fri:
+        - time: "10:00"
+          type: Open
+      mode: Auto
+      mon:
+        - time: "10:00"
+          type: Open
+        - time: "22:00"
+          type: Close
+      sat:
+        - time: "00:00"
+          type: Close
+        - time: "10:00"
+          type: Open
+      sun:
+        - time: "00:00"
+          type: Close
+        - time: "08:00"
+          type: Open
+        - time: "17:00"
+          type: Close
+      thu:
+        - time: "10:00"
+          type: Open
+        - time: "22:00"
+          type: Close
+      tue:
+        - time: "10:00"
+          type: Open
+        - time: "22:00"
+          type: Close
+      wed:
+        - time: "10:00"
+          type: Open
+        - time: "22:00"
+          type: Close
+    orderingtables:
+      - Takeway Only
     phone: "18684860785"
-    whatsapp: "18684860785"
     subcategories:
-      - "Restaurant"
-    orderingtables: []
-    delivery:
-    opening_hours:
-      mode: "Auto"
-
+      - Restaurant
+    whatsapp: "18684860785"
