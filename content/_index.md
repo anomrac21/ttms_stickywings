@@ -1,8 +1,8 @@
 ---
-title: "{{SITE_TITLE}}"
-image: "{{HERO_IMAGE}}"
+title: "Sticky Wings"
+image: ""
 images:
-    - image: "{{HERO_IMAGE}}"
+    - image: ""
 slideshow: []
 ---
 

@@ -1,5 +1,3 @@
-# Push to master/main triggers a Hugo rebuild on the TTMS Kubernetes cluster.
-# CPS sets HUGO_DEPLOY_TOKEN on the repo before the first push (required for repository_dispatch).
 name: Deploy to Kubernetes
 
 on:
@@ -30,11 +28,11 @@ jobs:
         uses: peter-evans/repository-dispatch@v4
         with:
           token: ${{ secrets.HUGO_DEPLOY_TOKEN || secrets.CLUSTER_REPO_TOKEN }}
-          repository: {{CLIENT_CONFIG_REPO}}
+          repository: anomrac21/ttms-client-configs
           event-type: hugo-redeploy
           client-payload: |-
             {
-              "cluster_client_id": "{{CLUSTER_CLIENT_ID}}",
+              "cluster_client_id": "ttms-stickywings",
               "environment": "production",
               "source_repo": "${{ github.repository }}",
               "source_sha": "${{ github.sha }}"
