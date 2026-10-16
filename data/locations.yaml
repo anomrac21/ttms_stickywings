@@ -1,5 +1,6 @@
 locations:
-  - address: Movie Town Mall
+  - slug: port-of-spain
+    address: Movie Town Mall
     city: Port of Spain
     delivery: {}
     island: Trinidad
@@ -49,7 +50,8 @@ locations:
     subcategories:
       - Restaurant
     whatsapp: "18687258135"
-  - address: Icon Plaza
+  - slug: san-juan
+    address: Icon Plaza
     city: San Juan
     delivery: {}
     island: Trinidad

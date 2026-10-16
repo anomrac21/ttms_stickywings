@@ -1,0 +1,451 @@
+{
+  "multi_location_menus": true,
+  "shared": [
+    {
+      "section": "appetizers",
+      "file": "cheesy-fries",
+      "authoring": "shared",
+      "content_path": "content/_shared/appetizers/cheesy-fries.md"
+    },
+    {
+      "section": "appetizers",
+      "file": "mozzarella-sticks",
+      "authoring": "shared",
+      "content_path": "content/_shared/appetizers/mozzarella-sticks.md"
+    },
+    {
+      "section": "appetizers",
+      "file": "onion-rings",
+      "authoring": "shared",
+      "content_path": "content/_shared/appetizers/onion-rings.md"
+    },
+    {
+      "section": "burgers",
+      "file": "chicken-sandwich",
+      "authoring": "shared",
+      "content_path": "content/_shared/burgers/chicken-sandwich.md"
+    },
+    {
+      "section": "burgers",
+      "file": "fry-fish-sandwich",
+      "authoring": "shared",
+      "content_path": "content/_shared/burgers/fry-fish-sandwich.md"
+    },
+    {
+      "section": "burgers",
+      "file": "shrimp-sandwich",
+      "authoring": "shared",
+      "content_path": "content/_shared/burgers/shrimp-sandwich.md"
+    },
+    {
+      "section": "burgers",
+      "file": "sticky-classic-beef",
+      "authoring": "shared",
+      "content_path": "content/_shared/burgers/sticky-classic-beef.md"
+    },
+    {
+      "section": "chicken-tenders",
+      "file": "large-tenders-and-fries",
+      "authoring": "shared",
+      "content_path": "content/_shared/chicken-tenders/large-tenders-and-fries.md"
+    },
+    {
+      "section": "chicken-tenders",
+      "file": "tenders-and-fries",
+      "authoring": "shared",
+      "content_path": "content/_shared/chicken-tenders/tenders-and-fries.md"
+    },
+    {
+      "section": "chicken-tenders",
+      "file": "tenders-and-shrimp",
+      "authoring": "shared",
+      "content_path": "content/_shared/chicken-tenders/tenders-and-shrimp.md"
+    },
+    {
+      "section": "chicken-tenders",
+      "file": "wings-and-tenders",
+      "authoring": "shared",
+      "content_path": "content/_shared/chicken-tenders/wings-and-tenders.md"
+    },
+    {
+      "section": "combos",
+      "file": "1-2-chicken",
+      "authoring": "shared",
+      "content_path": "content/_shared/combos/1-2-chicken.md"
+    },
+    {
+      "section": "combos",
+      "file": "1-4-chicken-b&w",
+      "authoring": "shared",
+      "content_path": "content/_shared/combos/1-4-chicken-b&w.md"
+    },
+    {
+      "section": "combos",
+      "file": "1-4-chicken-l&t",
+      "authoring": "shared",
+      "content_path": "content/_shared/combos/1-4-chicken-l&t.md"
+    },
+    {
+      "section": "combos",
+      "file": "beef-ribs",
+      "authoring": "shared",
+      "content_path": "content/_shared/combos/beef-ribs.md"
+    },
+    {
+      "section": "combos",
+      "file": "boneless-chicken",
+      "authoring": "shared",
+      "content_path": "content/_shared/combos/boneless-chicken.md"
+    },
+    {
+      "section": "combos",
+      "file": "chicken-tenders",
+      "authoring": "shared",
+      "content_path": "content/_shared/combos/chicken-tenders.md"
+    },
+    {
+      "section": "combos",
+      "file": "fried-fish",
+      "authoring": "shared",
+      "content_path": "content/_shared/combos/fried-fish.md"
+    },
+    {
+      "section": "combos",
+      "file": "grilled-fish",
+      "authoring": "shared",
+      "content_path": "content/_shared/combos/grilled-fish.md"
+    },
+    {
+      "section": "combos",
+      "file": "lamb",
+      "authoring": "shared",
+      "content_path": "content/_shared/combos/lamb.md"
+    },
+    {
+      "section": "combos",
+      "file": "oxtail",
+      "authoring": "shared",
+      "content_path": "content/_shared/combos/oxtail.md"
+    },
+    {
+      "section": "combos",
+      "file": "shrimp",
+      "authoring": "shared",
+      "content_path": "content/_shared/combos/shrimp.md"
+    },
+    {
+      "section": "desserts",
+      "file": "carrot-cake",
+      "authoring": "shared",
+      "content_path": "content/_shared/desserts/carrot-cake.md"
+    },
+    {
+      "section": "desserts",
+      "file": "chocolate-cake",
+      "authoring": "shared",
+      "content_path": "content/_shared/desserts/chocolate-cake.md"
+    },
+    {
+      "section": "desserts",
+      "file": "oreo-chol-cheesecake",
+      "authoring": "shared",
+      "content_path": "content/_shared/desserts/oreo-chol-cheesecake.md"
+    },
+    {
+      "section": "desserts",
+      "file": "red-velvet",
+      "authoring": "shared",
+      "content_path": "content/_shared/desserts/red-velvet.md"
+    },
+    {
+      "section": "desserts",
+      "file": "regular-cake-slices",
+      "authoring": "shared",
+      "content_path": "content/_shared/desserts/regular-cake-slices.md"
+    },
+    {
+      "section": "loaded-fries",
+      "file": "beef-loaded-fries",
+      "authoring": "shared",
+      "content_path": "content/_shared/loaded-fries/beef-loaded-fries.md"
+    },
+    {
+      "section": "loaded-fries",
+      "file": "chicken-loaded-fries",
+      "authoring": "shared",
+      "content_path": "content/_shared/loaded-fries/chicken-loaded-fries.md"
+    },
+    {
+      "section": "loaded-fries",
+      "file": "lamb-loaded-fries",
+      "authoring": "shared",
+      "content_path": "content/_shared/loaded-fries/lamb-loaded-fries.md"
+    },
+    {
+      "section": "loaded-fries",
+      "file": "shrimp-loaded-fries",
+      "authoring": "shared",
+      "content_path": "content/_shared/loaded-fries/shrimp-loaded-fries.md"
+    },
+    {
+      "section": "loaded-fries",
+      "file": "veggie-loaded-fries",
+      "authoring": "shared",
+      "content_path": "content/_shared/loaded-fries/veggie-loaded-fries.md"
+    },
+    {
+      "section": "mac-and-cheese",
+      "file": "mac-and-cheese-bowl",
+      "authoring": "shared",
+      "content_path": "content/_shared/mac-and-cheese/mac-and-cheese-bowl.md"
+    },
+    {
+      "section": "mix",
+      "file": "chicken-and-lamb-+-1-side",
+      "authoring": "shared",
+      "content_path": "content/_shared/mix/chicken-and-lamb-+-1-side.md"
+    },
+    {
+      "section": "mix",
+      "file": "shrimp-and-fish-+-1-side",
+      "authoring": "shared",
+      "content_path": "content/_shared/mix/shrimp-and-fish-+-1-side.md"
+    },
+    {
+      "section": "mix",
+      "file": "tenders-and-shrimp",
+      "authoring": "shared",
+      "content_path": "content/_shared/mix/tenders-and-shrimp.md"
+    },
+    {
+      "section": "packs",
+      "file": "buddy-pack",
+      "authoring": "shared",
+      "content_path": "content/_shared/packs/buddy-pack.md"
+    },
+    {
+      "section": "packs",
+      "file": "family-pack",
+      "authoring": "shared",
+      "content_path": "content/_shared/packs/family-pack.md"
+    },
+    {
+      "section": "packs",
+      "file": "party-pack",
+      "authoring": "shared",
+      "content_path": "content/_shared/packs/party-pack.md"
+    },
+    {
+      "section": "pasta",
+      "file": "chicken-alfredo",
+      "authoring": "shared",
+      "content_path": "content/_shared/pasta/chicken-alfredo.md"
+    },
+    {
+      "section": "pasta",
+      "file": "chicken-and-shrimp",
+      "authoring": "shared",
+      "content_path": "content/_shared/pasta/chicken-and-shrimp.md"
+    },
+    {
+      "section": "pasta",
+      "file": "fasta-pasta",
+      "authoring": "shared",
+      "content_path": "content/_shared/pasta/fasta-pasta.md"
+    },
+    {
+      "section": "pasta",
+      "file": "jerk-chicken-pasta",
+      "authoring": "shared",
+      "content_path": "content/_shared/pasta/jerk-chicken-pasta.md"
+    },
+    {
+      "section": "pasta",
+      "file": "lamb",
+      "authoring": "shared",
+      "content_path": "content/_shared/pasta/lamb.md"
+    },
+    {
+      "section": "pasta",
+      "file": "shrimp-alfredo",
+      "authoring": "shared",
+      "content_path": "content/_shared/pasta/shrimp-alfredo.md"
+    },
+    {
+      "section": "pasta",
+      "file": "veggie",
+      "authoring": "shared",
+      "content_path": "content/_shared/pasta/veggie.md"
+    },
+    {
+      "section": "salads",
+      "file": "chicken-salad",
+      "authoring": "shared",
+      "content_path": "content/_shared/salads/chicken-salad.md"
+    },
+    {
+      "section": "salads",
+      "file": "fry-fish-salad",
+      "authoring": "shared",
+      "content_path": "content/_shared/salads/fry-fish-salad.md"
+    },
+    {
+      "section": "salads",
+      "file": "mediterranean-quinoa",
+      "authoring": "shared",
+      "content_path": "content/_shared/salads/mediterranean-quinoa.md"
+    },
+    {
+      "section": "salads",
+      "file": "shrimp-salad",
+      "authoring": "shared",
+      "content_path": "content/_shared/salads/shrimp-salad.md"
+    },
+    {
+      "section": "sides",
+      "file": "cassava",
+      "authoring": "shared",
+      "content_path": "content/_shared/sides/cassava.md"
+    },
+    {
+      "section": "sides",
+      "file": "cole-slaw",
+      "authoring": "shared",
+      "content_path": "content/_shared/sides/cole-slaw.md"
+    },
+    {
+      "section": "sides",
+      "file": "creamy-potatoes",
+      "authoring": "shared",
+      "content_path": "content/_shared/sides/creamy-potatoes.md"
+    },
+    {
+      "section": "sides",
+      "file": "crinkle-cut",
+      "authoring": "shared",
+      "content_path": "content/_shared/sides/crinkle-cut.md"
+    },
+    {
+      "section": "sides",
+      "file": "fresh-salad",
+      "authoring": "shared",
+      "content_path": "content/_shared/sides/fresh-salad.md"
+    },
+    {
+      "section": "sides",
+      "file": "garlic-potatoes",
+      "authoring": "shared",
+      "content_path": "content/_shared/sides/garlic-potatoes.md"
+    },
+    {
+      "section": "sides",
+      "file": "macaroni-salad",
+      "authoring": "shared",
+      "content_path": "content/_shared/sides/macaroni-salad.md"
+    },
+    {
+      "section": "sides",
+      "file": "noodles",
+      "authoring": "shared",
+      "content_path": "content/_shared/sides/noodles.md"
+    },
+    {
+      "section": "sides",
+      "file": "potato-salad",
+      "authoring": "shared",
+      "content_path": "content/_shared/sides/potato-salad.md"
+    },
+    {
+      "section": "sides",
+      "file": "rice",
+      "authoring": "shared",
+      "content_path": "content/_shared/sides/rice.md"
+    },
+    {
+      "section": "soup-saturdays",
+      "file": "corn-soup",
+      "authoring": "shared",
+      "content_path": "content/_shared/soup-saturdays/corn-soup.md"
+    },
+    {
+      "section": "soup-saturdays",
+      "file": "cow-heel-soup",
+      "authoring": "shared",
+      "content_path": "content/_shared/soup-saturdays/cow-heel-soup.md"
+    },
+    {
+      "section": "specials",
+      "file": "bbq-chicken-noodles-plus-drink",
+      "authoring": "shared",
+      "content_path": "content/_shared/specials/bbq-chicken-noodles-plus-drink.md"
+    },
+    {
+      "section": "specials",
+      "file": "family-meal",
+      "authoring": "shared",
+      "content_path": "content/_shared/specials/family-meal.md"
+    },
+    {
+      "section": "specials",
+      "file": "fish-plus-fries",
+      "authoring": "shared",
+      "content_path": "content/_shared/specials/fish-plus-fries.md"
+    },
+    {
+      "section": "specials",
+      "file": "small-wings-&-fries-plus-drink",
+      "authoring": "shared",
+      "content_path": "content/_shared/specials/small-wings-&-fries-plus-drink.md"
+    },
+    {
+      "section": "sticky-wings",
+      "file": "10pc-and-fries",
+      "authoring": "shared",
+      "content_path": "content/_shared/sticky-wings/10pc-and-fries.md"
+    },
+    {
+      "section": "sticky-wings",
+      "file": "10pc-only",
+      "authoring": "shared",
+      "content_path": "content/_shared/sticky-wings/10pc-only.md"
+    },
+    {
+      "section": "sticky-wings",
+      "file": "20pc-only",
+      "authoring": "shared",
+      "content_path": "content/_shared/sticky-wings/20pc-only.md"
+    },
+    {
+      "section": "sticky-wings",
+      "file": "4pc-and-fries",
+      "authoring": "shared",
+      "content_path": "content/_shared/sticky-wings/4pc-and-fries.md"
+    },
+    {
+      "section": "sticky-wings",
+      "file": "6pc-and-2-sides",
+      "authoring": "shared",
+      "content_path": "content/_shared/sticky-wings/6pc-and-2-sides.md"
+    },
+    {
+      "section": "sticky-wings",
+      "file": "6pc-and-fries",
+      "authoring": "shared",
+      "content_path": "content/_shared/sticky-wings/6pc-and-fries.md"
+    },
+    {
+      "section": "sticky-wings",
+      "file": "6pc-only",
+      "authoring": "shared",
+      "content_path": "content/_shared/sticky-wings/6pc-only.md"
+    },
+    {
+      "section": "sticky-wings",
+      "file": "wings-and-pasta",
+      "authoring": "shared",
+      "content_path": "content/_shared/sticky-wings/wings-and-pasta.md"
+    }
+  ],
+  "location": [],
+  "generated_at": "2026-10-16T00:05:45.206837+00:00"
+}

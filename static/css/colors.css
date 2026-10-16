@@ -1,60 +1,74 @@
 :root {
-  /* Sticky Wings — logo: black, red, orange/gold, warm cream */
+    /* Header */
+    --header-color: #c41a1a;
+    --header-bg-color: #c41a1a;
+    --header-text-color: #fff8f0;
+    --header-text-shadow-color: #00000040;
+    --header-icon-color: #ffc107;
+    --header-bordercolor-1: #f57c00;
+    --header-bordercolor-2: #ffb300;
+    --header-border-color: #f57c00;
+    --header-bg-image: none;
 
-  /* Header */
-  --header-color: #fff8f0;
-  --header-text-color: #fff8f0;
-  --header-text-shadow-color: #00000040;
-  --header-bg-color: #c41a1af0;
-  --header-icon-color: #ffc107;
-  --header-bordercolor-1: #f57c00;
-  --header-bordercolor-2: #ffb300;
-  --header-bg-image: none;
+    /* Hero */
+    --hero-bg-color: #2a1515;
+    --hero-bg-color-1: #2a1515;
+    --hero-bg-color-2: #2a1515;
+    --hero-bg-image-fg-color: #ffb300;
+    --hero-text-color: #fff8f0;
+    --hero-features-icon-color: #ffc107;
+    --hero-features-icon-bg-color: #c41a1a;
+    --hero-border-color: #f57c00;
+    --contact-info-bg: none;
 
-  /* Hero */
-  --hero-bg-color: #2a1515;
-  --hero-bg-image-fg-color: #ffb300;
-  --hero-text-color: #fff8f0;
-  --contact-info-bg: none;
+    /* Main */
+    --main-bg: #2a1515;
+    --main-bg-color: #2a1515;
+    --main-text-color: #fff8f0;
 
-  /* Main — warm light page, soft body text */
-  --main-bg: #f5f1ec;
-  --main-bg-color: #ffffff;
-  --main-text-color: #3a3530;
+    /* Menu */
+    --menu-bg-color-1: #c41a1a;
+    --menu-bg-color-2: #e8750a;
+    --menu-text-color: #fff8f0;
 
-  /* Menu section cards */
-  --menu-bg-color-1: #c41a1a;
-  --menu-bg-color-2: #e8750a;
-  --menu-text-color: #fff8f0;
+    /* Buttons */
+    --button-color1: #f57c00;
+    --button-color2: #e65100;
+    --button-text-color1: #ffffff;
+    --button-text-color2: #ffffff;
+    --button-text-color3: #ffffff;
+    --favorite-color: #c41a1a;
 
-  /* Buttons */
-  --button-color1: #f57c00;
-  --button-color2: #e65100;
-  --button-text-color1: #ffffff;
-  --button-text-color2: #ffffff;
-  --button-text-color3: #ffffff;
+    /* Selected */
+    --selected-button-color1: #c41a1a;
+    --selected-button-color2: #f57c00;
+    --selected-button-color3: #ffc107;
+    --selected-button-color4: #3a3530;
+    --selected-text-color1: #ffffff;
+    --selected-text-color2: #fff8f0;
+    --selected-text-color3: #fff8f0;
+    --select-color: #ffc107;
 
-  /* Selected / accents — gold reads well on dark footer dock */
-  --selected-button-color1: #c41a1a;
-  --selected-button-color2: #f57c00;
-  --selected-button-color3: #ffc107;
-  --selected-button-color4: #3a3530;
-  --selected-text-color1: #ffffff;
-  --selected-text-color2: #fff8f0;
-  --selected-text-color3: #c62828;
+    /* Accent */
+    --accent-color: #c41a1a;
+    --accent-text-color: #fff8f0;
+    --accent-glow-color: #fff8f0;
 
-  /* Footer — dark glass dock on light page (theme expects dark bg + light text) */
-  --footer-bg-color: #1f1614;
-  --footer-text-color: #fff8f0;
-  --modal-bg-container-color: #1f161499;
+    /* Footer */
+    --footer-bg-color: #1f1614;
+    --footer-text-color: #fff8f0;
+    --footer-icon-color: #fff8f0;
 
-  /* Brand tokens */
-  --brand-red: #e02020;
-  --brand-orange: #f57c00;
-  --brand-blue: #1565c0;
-  --brand-green: #2e7d32;
-  --brand-purple: #7b1fa2;
-  --brand-price-red: #c62828;
-  --brand-cream: #fff8f0;
-  --brand-brick-white: #f5f1ec;
+    /* Modal */
+    --modal-bg-container-color: #1f1614;
+
+    /* Brand tokens */
+    --brand-red: #e02020;
+    --brand-orange: #f57c00;
+    --brand-blue: #1565c0;
+    --brand-green: #2e7d32;
+    --brand-purple: #7b1fa2;
+    --brand-price-red: #c62828;
+    --brand-cream: #fff8f0;
+    --brand-brick-white: #f5f1ec;
 }
